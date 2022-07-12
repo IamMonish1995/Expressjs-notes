@@ -1,0 +1,31 @@
+html
+html
+   head
+      title Register
+   body
+      form(action = "/editprofile", method = "POST")
+         div
+            label(for = "name") Name:
+            input(name = "name" value = name)
+         br
+         div
+            label(for = "email") Email:
+            input(name = "email" disabled="disabled" value = email)
+         br
+         div
+            label(for = "number") Number:
+            input(name = "number" value = number)
+         br
+         div
+            label(for = "password") Password:
+            input(name = "password" value = password)
+         br
+         div
+            label(for = "state") state:
+            input(name = "state" value = state)
+         br
+         div
+            label(for = "city") city:
+            input(name = "city" value = city )
+         br   
+         button(type = "submit") update
